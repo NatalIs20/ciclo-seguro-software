@@ -1,3 +1,5 @@
-const GITHUB_TOKEN = "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";
+require("dotenv").config();
+
+const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 
 console.log("App iniciada");
